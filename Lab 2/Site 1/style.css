@@ -18,13 +18,11 @@ body {
   }
 
   .countDown {
-    border: 2px solid red;
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 260px;
   }
 
 .timer {
-    border: 2px solid;
     margin: 20px 30px;
     align-items: center;
     justify-content: center;
