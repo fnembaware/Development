@@ -3,7 +3,7 @@ body {
 }
 
 h1{
-margin-left: 40px;
+margin-left: 60px;
 }
 
 .container {
@@ -27,13 +27,12 @@ margin-left: 40px;
 #search-icon {
     position: absolute;
     left: px;
-    margin-left: 32px;
-
+    margin-left: 45
 }
 
 .search-input {
     padding: 15px;
-    margin-left: 30px;
+    margin-left: 50px;
 
 }
 
@@ -79,7 +78,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -89,8 +88,8 @@ nav {
     width: 200px;
     display: flex;
     background-color: #f9f9f9;
-    
-    align-items: center;
+    align-items: flex-start;
+    flex:1;
     
 }
 
@@ -117,4 +116,14 @@ nav {
     border: 1px solid lightgray;
     border-radius: 30px;
     color: rgb(156, 156, 230);
+}
+.card-info,
+.state,
+.card-buttons {
+    text-align: center; /* Center text horizontally */
+}
+
+.card-info,
+.state {
+    margin-bottom: 10px; /* Added margin to separate name-surname, state, and buttons */
 }
