@@ -117,13 +117,8 @@ nav {
     border-radius: 30px;
     color: rgb(156, 156, 230);
 }
-.card-info,
-.state,
-.card-buttons {
-    text-align: center; /* Center text horizontally */
-}
 
-.card-info,
-.state {
-    margin-bottom: 10px; /* Added margin to separate name-surname, state, and buttons */
+
+.name-surname {
+    font-weight: bold;
 }
