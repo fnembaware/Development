@@ -1,5 +1,7 @@
 const activity = document.querySelector("#activity")
 const participants = document.querySelector("#participants")
+const accessibility = document.querySelector("#accessibility")
+const key = document.querySelector("#key")
 const price = document.querySelector("#price")
 const type = document.querySelector("#type")
 
@@ -14,6 +16,8 @@ async function getData() {
 
     activity.innerHTML = respData.activity;
     participants.innerHTML = respData.participants;
+    accessibility.innerHTML = respData.accessibility;
+    key.innerHTML = respData.key;
     price.innerHTML = respData.price;
     type.innerHTML = respData.type;
 }
